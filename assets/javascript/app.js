@@ -14,7 +14,7 @@ var maplewoodId = "5036588";
 var saintPaulId = "5048033";
 var minnetonkaId = "5037784";
 
-var weatherURL = "http://api.openweathermap.org/data/2.5/group?id="+minneapolisId+","+maplewoodId+","+saintPaulId+","+minnetonkaId+"&units=imperial"+"&APPID="+weatherKey;
+var weatherURL = "https://api.openweathermap.org/data/2.5/group?id="+minneapolisId+","+maplewoodId+","+saintPaulId+","+minnetonkaId+"&units=imperial"+"&APPID="+weatherKey;
 
 var weatherBox = $("#weather-box");
 
